@@ -73,6 +73,13 @@ const SignInForm = () => {
     });
   }
 
+  const handleSignInWithGoogle = async () => {
+    await authClient.signIn.social({
+      provider: "google",
+      },
+    });
+  };
+
   return (
     <>
       <Card className="w-full">
@@ -115,8 +122,16 @@ const SignInForm = () => {
                 )}
               />
             </CardContent>
-            <CardFooter>
-              <Button type="submit">ENTRAR</Button>
+            <CardFooter className="flex flex-col gap-2">
+              <Button type="submit" className="w-full">ENTRAR</Button>
+              <Button variant="outline" className="w-full" onClick={handleSignInWithGoogle} type="button">
+                <img 
+                  src="/logo-google.png" 
+                  alt="Logo da Google" 
+                  style={{ width: 16, height: 16}} 
+                />
+                ENTRAR COM GOOGLE
+              </Button>
             </CardFooter>
           </form>
         </Form>

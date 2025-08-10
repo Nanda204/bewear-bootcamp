@@ -4,6 +4,7 @@ import Image from "next/image";
 import { db } from "@/db";
 import { productTable } from "@/db/schema";
 
+import BrandList from "./authentication/components/common/brand";
 import CategorySelector from "./authentication/components/common/category-selector";
 import Footer from "./authentication/components/common/footer";
 import { Header } from "./authentication/components/common/header";
@@ -36,6 +37,10 @@ const Home = async () => {
             sizes="100vw"
             className="h-auto w-full"
           />
+        </div>
+
+        <div>
+          <BrandList />
         </div>
 
         <ProductList products={products} title="Mais vendidos" />
