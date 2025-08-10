@@ -56,14 +56,14 @@ export const accountTable = pgTable("account", {
 });
 
 export const verificationTable = pgTable("verification", {
-  id: text('id').primaryKey(),
+  id: text("id").primaryKey(),
   identifier: text("identifier").notNull(),
   value: text("value").notNull(),
   expiresAt: timestamp("expires_at").notNull(),
   createdAt: timestamp("created_at").$defaultFn(
     () => /*@_PURE_*/ new Date(),
   ),
-  updateAT: timestamp("updated_at").$defaultFn(
+  updateAt: timestamp("updated_at").$defaultFn(
     () => /*@_PURE_*/ new Date(),
   ),
 });
