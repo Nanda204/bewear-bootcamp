@@ -8,7 +8,7 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true,
   },
-  socialProviders:{
+  socialProviders: {
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID as string,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
@@ -28,6 +28,6 @@ export const auth = betterAuth({
     modelName: "accountTable",
   },
   verification: {
-   modelName: "verificationTable",
+    modelName: "verificationTable",
   },
 });
