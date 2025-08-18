@@ -22,7 +22,8 @@ Durante o evento, aprendi a aplicar **Inteligência Artificial de forma prática
 - 📦 Cadastro de endereço de entrega  
 - 📑 Resumo da compra  
 - 💳 Pagamentos via Stripe  
-- ✅ Página de confirmação de pagamento  
+- ✅ Página de confirmação de pagamento
+- 📱 Desenvolvido especificamente para mobile, oferecendo uma experiência completa no celular
 
 ## 🔗 Link do projeto
 - [Deploy no Vercel](https://bewear-bootcamp-ebon.vercel.app/)
