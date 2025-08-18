@@ -2,8 +2,8 @@ import { eq } from "drizzle-orm";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
-import Footer from "@/app/authentication/components/common/footer";
-import { Header } from "@/app/authentication/components/common/header";
+import Footer from "@/components/common/footer";
+import { Header } from "@/components/common/header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { db } from "@/db";

@@ -1,4 +1,3 @@
-import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { MinusIcon, PlusIcon, TrashIcon } from "lucide-react";
 import Image from "next/image";
 import { toast } from "sonner";
@@ -91,12 +90,12 @@ const CartItem = ({
         </div>
       </div>
       <div className="flex flex-col items-end justify-center gap-2">
-        <p className="text-sm font-bold">
-          {formatCentsToBRL(productVariantPriceInCents)}
-        </p>
         <Button variant="outline" size="icon" onClick={handleDeleteClick}>
           <TrashIcon />
         </Button>
+        <p className="text-sm font-bold">
+          {formatCentsToBRL(productVariantPriceInCents)}
+        </p>
       </div>
     </div>
   );

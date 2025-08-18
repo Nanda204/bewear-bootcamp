@@ -11,7 +11,7 @@ import {
   DialogFooter,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { Header } from "@/app/authentication/components/common/header";
+import { Header } from "@/components/common/header";
 
 const CheckoutSuccessPage = () => {
   return (
@@ -34,7 +34,7 @@ const CheckoutSuccessPage = () => {
 
           <DialogFooter>
             <Button className="rounded-full" size="lg">
-              Ver meus pedidos
+              <Link href="/my-orders">Ver meus pedidos</Link>
             </Button>
             <Button
               className="rounded-full"
