@@ -19,14 +19,14 @@ Durante o evento, aprendi a aplicar **Inteligência Artificial** de forma práti
 - 👤 Autenticação com login/cadastro (incluindo Google OAuth)  
 - 📂 Categorias e pedidos realizados  
 - 🛒 Carrinho de compras dinâmico  
-- 📦 Cadastro de endereço de entrega  
+- 📦 Cadastro de múltiplos endereços de entrega  
 - 📑 Resumo da compra  
 - 💳 Pagamentos via Stripe  
 - ✅ Página de confirmação de pagamento
 - 📱 Desenvolvido especificamente para mobile, oferecendo uma experiência completa no celular
 
 ## 🔗 Link do projeto
-- [Deploy no Vercel](https://bewear-bootcamp-ebon.vercel.app/)
+https://bewear-bootcamp-ebon.vercel.app/
 
 ## Preview do Projeto - BEWEAR
 <img width="600" height="500" alt="capa" src="https://github.com/user-attachments/assets/a7e15078-d11b-4e12-ad48-5b4fe8cf8b70" />
