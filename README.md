@@ -3,7 +3,7 @@
 
 O **BEWEAR** é uma plataforma moderna de e-commerce desenvolvida durante o **Bootcamp Ecommerce**. O projeto foi construído com **React, Next.js, TypeScript, Node.js** e **Stripe**, além de deploy realizado no **Vercel**.  
 
-Durante o evento, aprendi a aplicar **Inteligência Artificial de forma prática** no desenvolvimento, aumentando a produtividade e aprimorando competências técnicas alinhadas às exigências do mercado.  
+Durante o evento, aprendi a aplicar **Inteligência Artificial** de forma prática no desenvolvimento, aumentando a produtividade e aprimorando competências técnicas alinhadas às exigências do mercado.  
 
 ## ⚙️ Tecnologias utilizadas
 - Next.js 15  
